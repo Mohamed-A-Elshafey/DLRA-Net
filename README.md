@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
+1. [Introduction](#Introduction)
 2. [Repository Files Description](#repository-files-description)
 3. [Usage](#usage)
 4. [Contact](#Contact)
