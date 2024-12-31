@@ -66,4 +66,5 @@ Badr, MA, Elrewainy, AF, and Elshafey, MAT. "Hybrid Spatial–Spectral Autoencod
 ```
 
 
-https://arc.aiaa.org/doi/10.2514/1.I011445
+https://link.springer.com/article/10.1007/s11263-024-02238-w
+
