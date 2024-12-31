@@ -48,23 +48,8 @@ Mohamed Abdelmoneim Taha Elshafey, Associate Professor, Head of Computer Enginee
 ## 5 - Reference
 
 ```
-@article{doi:10.2514/1.I011445,
-author = {Badr, Mohamed Ahmed and Elrewainy, Ahmed Fathy and Elshafey, Mohamed Abdelmoneim Taha Elshafey},
-title = {Hybrid Spatial–Spectral Autoencoder Models for Lossy Satellite Image Compression},
-journal = {Journal of Aerospace Information Systems},
-volume = {0},
-number = {0},
-pages = {1-22},
-year = {0},
-doi = {10.2514/1.I011445},
-URL = {https://doi.org/10.2514/1.I011445}
-}
+El-gabri, A.R., Aly, H.A., Ghoniemy, T.S. et al. DLRA-Net: Deep Local Residual Attention Network with Contextual Refinement for Spectral Super-Resolution. Int J Comput Vis (2024). https://doi.org/10.1007/s11263-024-02238-w
 ```
-
-```
-Badr, MA, Elrewainy, AF, and Elshafey, MAT. "Hybrid Spatial–Spectral Autoencoder Models for Lossy Satellite Image Compression." Journal of Aerospace Information Systems (2024): 1-22.
-```
-
 
 https://link.springer.com/article/10.1007/s11263-024-02238-w
 
