@@ -21,14 +21,13 @@ DLRA-Net/code/
 ## Usage
 DLRA-Net is assessed in the NTIRE2022 “Spectral Recovery” track where RGB images were recovered using known CSS. Every RGB image was independently normalized by its maximum value, contaminated with a more realistic unknown noise model, and compressed. This results in severely damaged images where the same object may have different spectrum representations across all the scenes. It comprises 900 training and 50 validation data pairs.
 
-### You can download the get NTIRE2022 Dataset from this link: 
+You can download the get NTIRE2022 Dataset from this link: 
 https://vcg.seas.harvard.edu/publications/ntire-2022
 
-### To Cite NTIRE2022 Dataset
-Arad, B. , Timofte, R. , Yahel, R. , Morag, N. , Bernat, A. , Cai, Y. et al. (2022). NTIRE 2022 spectral recovery challenge and data set. in 2022 IEEE/CVF conference on computer vision and pattern recognition workshops (CVPRW), pp. 862–880.
 
 ## Reference
 
+To cite this paper
 ```
 El-gabri, A.R., Aly, H.A., Ghoniemy, T.S. et al. DLRA-Net: Deep Local Residual Attention Network with Contextual Refinement for Spectral Super-Resolution. Int J Comput Vis (2024). https://doi.org/10.1007/s11263-024-02238-w
 ```
