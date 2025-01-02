@@ -16,8 +16,7 @@ Hyperspectral Images (HSIs) provide detailed scene insights using extensive spec
 ```
 DLRA-Net/code/
 ├── Training                              
-├── Testing                 
-└── Valid Datasets            
+└── Testing                           
 ```
 #### 1- Training
 The propsoed model architecture is presented for both RGB and Multispectral EuroSat dataset. It utilizes both CNNs and LSTMs within a cascading architecture to efficiently process image data by leveraging spatial and spectral feature extraction methods. The proposed hybrid (CNN-LSTM) model combines the Spatial feature extraction capability of CNNs with the shared output feature and sequential context representation of LSTMs (Temporal feature extraction) to extract SPATIAL features to create an effective latent compact representation. The convolution layer is responsible for extracting spatial features from the input image, The proposed CNN output is refined forward via a flatten layer, which converts all of the resulting multidimensional arrays into a single long continuous linear vector from pooled feature maps, the input of three layers of stacked LSTM cells, respectively. An LSTM cell comprises three gates- input, output, and forget. The sequential latent representation represents the compressed data
