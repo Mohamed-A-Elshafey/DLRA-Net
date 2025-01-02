@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [DLRA-Net Model](#DLRA-Net Model)
+2. [DLRA-Net Model](#DLRA-Net_Model)
 3. [Repository Files Description](#Repository-Files-Description)
 4. [Usage](#usage)
 5. [Reference](#Reference)
@@ -14,7 +14,7 @@ Hyperspectral Images (HSIs) provide detailed scene insights using extensive spec
 
 ![DLRANet](https://github.com/user-attachments/assets/130c4a30-8de2-4369-a089-3125ddf246eb)
 
-## DLRA-Net Model
+## DLRA-Net_Model
 
 ## Repository Files Description
 ```
