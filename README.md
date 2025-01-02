@@ -16,13 +16,17 @@ Hyperspectral Images (HSIs) provide detailed scene insights using extensive spec
 
 ## DLRA-Net Model
 
-Architecture of DLRA-Net integrating local spectral correlations and global contextual priors for improved SSR. CRM learns complex contextual priors to remove the undesired artifacts. Then, DRAMs progressively build up the HSI by capturing local and global contexts. Rm-1 and Rm represents lateral fusion connections between DLRAMs while red downarrow and red uparrow indicate downsampling and upsampling, respectively
 ![DLRANet](https://github.com/user-attachments/assets/130c4a30-8de2-4369-a089-3125ddf246eb)
+Architecture of DLRA-Net integrating local spectral correlations and global contextual priors for improved SSR. CRM learns complex contextual priors to remove the undesired artifacts. Then, DRAMs progressively build up the HSI by capturing local and global contexts. Rm-1 and Rm represents lateral fusion connections between DLRAMs while red downarrow and red uparrow indicate downsampling and upsampling, respectively
 
-The architecture CAM. CAM utilizes an average pooling across spatial dimensions H x W then introduced to a shared network followed by a Sigmoid layer to learn channel attention map.
 ![crm](https://github.com/user-attachments/assets/c8522dc9-78aa-4761-9766-8b0543fcc33f)
+The architecture CAM. CAM utilizes an average pooling across spatial dimensions H x W then introduced to a shared network followed by a Sigmoid layer to learn channel attention map.
 
+![mc](https://github.com/user-attachments/assets/65f3c965-a2a7-4464-a8e4-06e1357234c0)
+The architecture of MC module with dilated convolution layers with d dilation rates are adopted to capture contextual information at different scales
 
+![rimp](https://github.com/user-attachments/assets/03191689-e765-4a5c-b1dc-74b6d92c79b8)
+Relative improvements of the proposed model
 
 ## Repository Files Description
 ```
