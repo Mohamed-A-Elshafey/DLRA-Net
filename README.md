@@ -5,8 +5,7 @@
 1. [Introduction](#introduction)
 2. [Repository Files Description](#Repository-Files-Description)
 3. [Usage](#usage)
-4. [Contact](#Contact)
-5. [Reference](#Reference)
+4. [Reference](#Reference)
    
 ## Introduction
 
@@ -15,36 +14,20 @@ Hyperspectral Images (HSIs) provide detailed scene insights using extensive spec
 ## Repository Files Description
 ```
 DLRA-Net/code/
-├── Training                              
-└── Testing                           
+├── Training      Code for Training Stage                             
+└── Testing       Code for Training Stage                     
 ```
-#### 1- Training
-The propsoed model architecture is presented for both RGB and Multispectral EuroSat dataset. It utilizes both CNNs and LSTMs within a cascading architecture to efficiently process image data by leveraging spatial and spectral feature extraction methods. The proposed hybrid (CNN-LSTM) model combines the Spatial feature extraction capability of CNNs with the shared output feature and sequential context representation of LSTMs (Temporal feature extraction) to extract SPATIAL features to create an effective latent compact representation. The convolution layer is responsible for extracting spatial features from the input image, The proposed CNN output is refined forward via a flatten layer, which converts all of the resulting multidimensional arrays into a single long continuous linear vector from pooled feature maps, the input of three layers of stacked LSTM cells, respectively. An LSTM cell comprises three gates- input, output, and forget. The sequential latent representation represents the compressed data
-
-#### 2- Testing     
-The proposed model has two main components: a forward network(encoder) and a Backward network (decoder). We focused especially on separating spectral-spatial feature extraction blocks, which form the core of the SSFE network. The spectral and spatial features are combined into a spatial-spectral feature representation. The outputs of these blocks are then (Feature Fusion) concatenated and fed into a Downsampling Stage. The propsoed model architecture is presented for both RGB and Multispectral EuroSat dataset. The proposed hybrid SSFE model merges one directional CNN as a spatial block and LSTM as a spectral block in parallel paths, in which the CNN path focuses on spatial feature extraction, whereas the LSTM path is dedicated to spectral feature extraction.
-
-#### 3- Valid Datasets      
-The propsoed model architecture is presented for both RGB and Multispectral EuroSat dataset. CNNs are adept at extracting spatial features from RGB images where spectral details are less critical. In contrast, for multispectral image compression, a standard CNN may ignore vital spectral information that is essential to these types of data. To address the mentioned issue, we propose a two-directional CNN approach ( this method allows the convolutional kernel to independently extract spatial features along the two parallel pathways, in which spatial features are extracted from two different directions, and makes full use of the correlations between rows and between columns of each pixel.)  With the characteristics of the sliding window mechanism of the CNN, it’s possible to capture integrated spatial features by simply altering the movement direction of the kernel, given the relative nature of the image tensor arrangement and the movement of the convolution kernel, transposing the image tensor is adopted as an alternative approach.
 
 ## 3 - Usage
-To implement and verify these models, you need to specify the dataset, the model name, and the path to the model's weights.
+DLRA-Net is assessed in the NTIRE2022 “Spectral Recovery” track where RGB images were recovered using known CSS. Every RGB image was independently normalized by its maximum value, contaminated with a more realistic unknown noise model, and compressed. This results in severely damaged images where the same object may have different spectrum representations across all the scenes. It comprises 900 training and 50 validation data pairs.
 
-### You can download the RGB Dataset from this link: 
-https://www.kaggle.com/datasets/apollo2506/eurosat-dataset?select=EuroSATallBands
+### You can download the get NTIRE2022 Dataset from this link: 
+https://vcg.seas.harvard.edu/publications/ntire-2022
 
-### You can download the Multispectral Dataset from this link:
-https://www.kaggle.com/datasets/waseemalastal/eurosat-rgb-dataset
+### To Cite NTIRE2022 Dataset
+Arad, B. , Timofte, R. , Yahel, R. , Morag, N. , Bernat, A. , Cai, Y. et al. (2022). NTIRE 2022 spectral recovery challenge and data set. in 2022 IEEE/CVF conference on computer vision and pattern recognition workshops (CVPRW), pp. 862–880.
 
-## 4 - Contact
-
-Mohamed Ahmed Badr, Researcher at Avionics Engineering Department, Military Technical College, Cairo, Egypt, m.badr1086@gmail.com
-
-Ahmed Fathy Elrewainy, Assistant Professor, Avionics Engineering Department, Military Technical College, Cairo, Egypt, ahmed.elrewainy@mtc.edu.eg
-
-Mohamed Abdelmoneim Taha Elshafey, Associate Professor, Head of Computer Engineering and Artificial Intelligence Department, Military Technical College, Cairo, Egypt, m.shafey@mtc.edu.eg ; mohamed.elshafey@ieee.org
-
-## 5 - Reference
+## 4 - Reference
 
 ```
 El-gabri, A.R., Aly, H.A., Ghoniemy, T.S. et al. DLRA-Net: Deep Local Residual Attention Network with Contextual Refinement for Spectral Super-Resolution. Int J Comput Vis (2024). https://doi.org/10.1007/s11263-024-02238-w
