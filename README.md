@@ -14,6 +14,8 @@ Hyperspectral Images (HSIs) provide detailed scene insights using extensive spec
 
 ![DLRANet](https://github.com/user-attachments/assets/130c4a30-8de2-4369-a089-3125ddf246eb)
 
+## DLRA-Net Model
+
 ## Repository Files Description
 ```
 DLRA-Net/code/
