@@ -44,7 +44,7 @@ Relative improvements of the proposed model
 ```
 DLRA-Net/code/
 ├── Training      Code for Training Stage                             
-└── Testing       Code for Training Stage                     
+└── Testing       Code for Testing Stage                     
 ```
 
 ## Usage
