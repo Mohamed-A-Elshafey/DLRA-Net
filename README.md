@@ -1,5 +1,9 @@
 # DLRA-Net: Deep Local Residual Attention Network with Contextual Refinement for Spectral Super-Resolution
+[International Journal of Computer Vision](https://link.springer.com/article/10.1007/s11263-024-02238-w)
 
+[Ahmed R. El-gabri](https://orcid.org/0000-0002-9802-5040), [Hussein A. Aly](https://orcid.org/0000-0001-5604-7252), [Tarek S. Ghoniemy](https://orcid.org/0000-0003-4919-4232) and [Mohamed A. Elshafey](https://orcid.org/0000-0002-1517-8878)
+
+<hr />
 ## Table of Contents
 
 1. [Introduction](#introduction)
