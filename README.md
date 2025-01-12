@@ -83,7 +83,24 @@ Put all downloaded files to `/DLRA-Net-master/Dataset/`, and this repo is collec
 1. #### Data Preprocess.
 ```shell
 cd /DLRA-Net-master/train/
+# Getting the prepared train data by run:
+python train_data_preprocess.py --data_path '../Dataset' --patch_size 128 --stride 64 --train_data_path './dataset/Train'
 
+# Getting the prepared valid data by run:
+python valid_data_preprocess.py --data_path '../Dataset' --valid_data_path './dataset/Valid'
+```
+2. #### Training.
+```shell
+python main.py
+```
+The data generated during training will be recorded in `/RealWorldResults/`.
+## Test
+```shell
+cd /DLRA-Net-master/test/
+python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/model.pth' --result_dir './test_results'
+
+# The PSNR, SSIM, SAM, ERGAS, MRAE and RMSE indicators can be obtained by run:
+python compute_mrae.py --path_rec './test_results' --path_gt '../Dataset/Valid_spectral'
 
 ## Reference
 
