@@ -44,7 +44,7 @@ The architecture of MC module with dilated convolution layers with d dilation ra
 
 Relative improvements of the proposed model
                   
-``
+
 ## Data Preparation:
 
 - Download the training spectral images ([Google Drive](https://drive.google.com/file/d/1FQBfDd248dCKClR-BpX5V2drSbeyhKcq/view))
@@ -79,7 +79,10 @@ Put all downloaded files to `/DLRA-Net-master/Dataset/`, and this repo is collec
 				|--ARAD_1K_0902.jpg
 				： 
 				|--ARAD_1K_0950.jpg
- ```
+```
+1. #### Data Preprocess.
+```shell
+cd /DLRA-Net-master/train/
 
 
 ## Reference
