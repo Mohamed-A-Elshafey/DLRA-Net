@@ -84,10 +84,10 @@ Put all downloaded files to `/DLRA-Net-master/Dataset/`, and this repo is collec
 ```shell
 cd /DLRA-Net-main/train/
 # Getting the prepared train data by run:
-python train_data_preprocess.py --data_path '../Dataset' --patch_size 128 --stride 64 --train_data_path './dataset/Train'
+python train_data_preprocess.py --data_path '../Dataset' --patch_size 128 --stride 64 --train_data_path './data'
 
 # Getting the prepared valid data by run:
-python valid_data_preprocess.py --data_path '../Dataset' --valid_data_path './dataset/Valid'
+python valid_data_preprocess.py --data_path '../Dataset' --valid_data_path './data'
 ```
 2. #### Training.
 ```shell
