@@ -54,7 +54,7 @@ The architecture of MC module with dilated convolution layers with d dilation ra
 
 Put all downloaded files to `/DLRA-Net-master/Dataset/`, and this repo is collected as the following form:
  ```shell
-	|--DLRA-Net-master
+	|--DLRA-Net-main
 		|--figures
 		|--test
 		|--train  
@@ -82,7 +82,7 @@ Put all downloaded files to `/DLRA-Net-master/Dataset/`, and this repo is collec
 ```
 1. #### Data Preprocess.
 ```shell
-cd /DLRA-Net-master/train/
+cd /DLRA-Net-main/train/
 # Getting the prepared train data by run:
 python train_data_preprocess.py --data_path '../Dataset' --patch_size 128 --stride 64 --train_data_path './dataset/Train'
 
@@ -97,7 +97,7 @@ The data generated during training will be recorded in `/RealWorldResults/`.
 
 3. #### Test.
 ```shell
-cd /DLRA-Net-master/test/
+cd /DLRA-Net-main/test/
 python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/model.pth' --result_dir './test_results'
 
 # The PSNR, SSIM, SAM, ERGAS, MRAE and RMSE indicators can be obtained by run:
