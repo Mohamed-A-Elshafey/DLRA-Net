@@ -94,7 +94,8 @@ python valid_data_preprocess.py --data_path '../Dataset' --valid_data_path './da
 python main.py
 ```
 The data generated during training will be recorded in `/RealWorldResults/`.
-## Test
+
+3. #### Test.
 ```shell
 cd /DLRA-Net-master/test/
 python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/model.pth' --result_dir './test_results'
