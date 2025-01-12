@@ -93,7 +93,7 @@ python valid_data_preprocess.py --data_path '../Dataset' --valid_data_path './da
 ```shell
 python main.py
 ```
-The data generated during training will be recorded in `/RealWorldResults/`.
+The data generated during training will be recorded in `/Results/`.
 
 3. #### Test.
 ```shell
