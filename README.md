@@ -9,9 +9,8 @@
 
 1. [Introduction](#introduction)
 2. [DLRA-Net Model](#DLRA-Net-Model)
-3. [Repository Files Description](#Repository-Files-Description)
-4. [Usage](#usage)
-5. [Reference](#Reference)
+3. [Data Preparation](#Data Preparation)
+4. [Reference](#Reference)
    
 ## Introduction
 
@@ -19,7 +18,7 @@ Hyperspectral Images (HSIs) provide detailed scene insights using extensive spec
 
 
 
-## DLRA-Net Model
+## DLRA-Net Network Architecture
 
 ![DLRANet](https://github.com/user-attachments/assets/130c4a30-8de2-4369-a089-3125ddf246eb)
 
@@ -44,19 +43,44 @@ The architecture of MC module with dilated convolution layers with d dilation ra
 ![rimp](https://github.com/user-attachments/assets/03191689-e765-4a5c-b1dc-74b6d92c79b8)
 
 Relative improvements of the proposed model
-
-## Repository Files Description
-```
-DLRA-Net/code/
-├── Training      Code for Training Stage                             
-└── Testing       Code for Testing Stage                     
+                  
 ```
 
-## Usage
-DLRA-Net is assessed in the NTIRE2022 “Spectral Recovery” track where RGB images were recovered using known CSS. Every RGB image was independently normalized by its maximum value, contaminated with a more realistic unknown noise model, and compressed. This results in severely damaged images where the same object may have different spectrum representations across all the scenes. It comprises 900 training and 50 validation data pairs.
+## Data Preparation:
 
-You can download the NTIRE2022 Dataset from this link: 
-https://vcg.seas.harvard.edu/publications/ntire-2022
+- Download the training spectral images ([Google Drive](https://drive.google.com/file/d/1FQBfDd248dCKClR-BpX5V2drSbeyhKcq/view))
+- Download the training RGB images ([Google Drive](https://drive.google.com/file/d/1A4GUXhVc5k5d_79gNvokEtVPG290qVkd/view))
+- Download  the validation spectral images ([Google Drive](https://drive.google.com/file/d/12QY8LHab3gzljZc3V6UyHgBee48wh9un/view))
+- Download the validation RGB images ([Google Drive](https://drive.google.com/file/d/19vBR_8Il1qcaEZsK42aGfvg5lCuvLh1A/view))
+
+Put all downloaded files to `/DLRA-Net-master/Dataset/`, and this repo is collected as the following form:
+ ```shell
+	|--DLRA-Net-master
+		|--figures
+		|--test
+		|--train  
+		|--Dataset 
+            |--Train_spectral
+				|--ARAD_1K_0001.mat
+				|--ARAD_1K_0002.mat
+				： 
+				|--ARAD_1K_0900.mat
+			|--Train_RGB
+				|--ARAD_1K_0001.jpg
+				|--ARAD_1K_0002.jpg
+				： 
+				|--ARAD_1K_0900.jpg
+			|--Valid_soectral
+				|--ARAD_1K_0901.mat
+				|--ARAD_1K_0902.mat
+				： 
+				|--ARAD_1K_0950.mat
+			|--Valid_RGB
+				|--ARAD_1K_0901.jpg
+				|--ARAD_1K_0902.jpg
+				： 
+				|--ARAD_1K_0950.jpg
+ ```
 
 
 ## Reference
