@@ -120,5 +120,4 @@ If you find this code helpful, please kindly cite:
 El-gabri, A.R., Aly, H.A., Ghoniemy, T.S. et al. DLRA-Net: Deep Local Residual Attention Network with Contextual Refinement for Spectral Super-Resolution. Int J Comput Vis (2024). https://doi.org/10.1007/s11263-024-02238-w
 ```
 
-https://link.springer.com/article/10.1007/s11263-024-02238-w
 
