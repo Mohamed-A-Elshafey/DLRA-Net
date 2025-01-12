@@ -98,6 +98,7 @@ The data generated during training will be recorded in `/Results/`.
 3. #### Test.
 ```shell
 cd /DLRA-Net-main/test/
+# The following file will obtain reconstructed HSIs while calculating "FLOPS " and "Number of parameters" of DLRA-Net
 python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/trained.pth' --result_dir './test_results'
 
 # The PSNR, SSIM, SAM, ERGAS, MRAE and RMSE indicators can be obtained by run:
