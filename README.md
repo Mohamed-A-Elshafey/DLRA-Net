@@ -102,7 +102,7 @@ python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/model.pth' 
 
 # The PSNR, SSIM, SAM, ERGAS, MRAE and RMSE indicators can be obtained by run:
 python compute_mrae.py --path_rec './test_results' --path_gt '../Dataset/Valid_spectral'
-
+```
 ## Citation
 
 If you find this code helpful, please kindly cite:
