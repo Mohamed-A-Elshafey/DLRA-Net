@@ -40,10 +40,10 @@ The architecture CAM. CAM utilizes an average pooling across spatial dimensions 
 
 The architecture of MC module with dilated convolution layers with d dilation rates are adopted to capture contextual information at different scales
 
+#### Relative improvements of the proposed model
+
 ![rimp](https://github.com/user-attachments/assets/03191689-e765-4a5c-b1dc-74b6d92c79b8)
 
-Relative improvements of the proposed model
-                  
 
 ## Data Preparation:
 
