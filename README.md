@@ -8,8 +8,8 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [DLRA-Net Model](#DLRA-Net-Model)
-3. [Data Preparation](#Data Preparation)
+2. [DLRA-Net Network Architecture](#DLRA-Net-Network-Architecture)
+3. [Data Preparation](#Data-Preparation)
 4. [Reference](#Reference)
    
 ## Introduction
@@ -44,8 +44,7 @@ The architecture of MC module with dilated convolution layers with d dilation ra
 
 Relative improvements of the proposed model
                   
-```
-
+``
 ## Data Preparation:
 
 - Download the training spectral images ([Google Drive](https://drive.google.com/file/d/1FQBfDd248dCKClR-BpX5V2drSbeyhKcq/view))
