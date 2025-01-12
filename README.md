@@ -10,7 +10,7 @@
 1. [Introduction](#introduction)
 2. [DLRA-Net Network Architecture](#DLRA-Net-Network-Architecture)
 3. [Data Preparation](#Data-Preparation)
-4. [Reference](#Reference)
+4. [Citation](#Citation)
    
 ## Introduction
 
@@ -103,9 +103,20 @@ python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/model.pth' 
 # The PSNR, SSIM, SAM, ERGAS, MRAE and RMSE indicators can be obtained by run:
 python compute_mrae.py --path_rec './test_results' --path_gt '../Dataset/Valid_spectral'
 
-## Reference
+## Citation
 
-To cite this paper
+If you find this code helpful, please kindly cite:
+```shell
+# DLRA-Net
+```
+@article{el2024dlra,
+  title={DLRA-Net: Deep Local Residual Attention Network with Contextual Refinement for Spectral Super-Resolution},
+  author={El-gabri, Ahmed R and Aly, Hussein A and Ghoniemy, Tarek S and Elshafey, Mohamed A},
+  journal={International Journal of Computer Vision},
+  pages={1--33},
+  year={2024},
+  publisher={Springer}
+}
 ```
 El-gabri, A.R., Aly, H.A., Ghoniemy, T.S. et al. DLRA-Net: Deep Local Residual Attention Network with Contextual Refinement for Spectral Super-Resolution. Int J Comput Vis (2024). https://doi.org/10.1007/s11263-024-02238-w
 ```
