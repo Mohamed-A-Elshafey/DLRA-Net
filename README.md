@@ -98,11 +98,12 @@ The data generated during training will be recorded in `/Results/`.
 3. #### Test.
 ```shell
 cd /DLRA-Net-main/test/
-python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/model.pth' --result_dir './test_results'
+python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/trained.pth' --result_dir './test_results'
 
 # The PSNR, SSIM, SAM, ERGAS, MRAE and RMSE indicators can be obtained by run:
 python compute_mrae.py --path_rec './test_results' --path_gt '../Dataset/Valid_spectral'
 ```
+- the pretrained model already exists in the model file
 ## Citation
 
 If you find this code helpful, please kindly cite:
