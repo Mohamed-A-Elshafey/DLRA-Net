@@ -103,7 +103,7 @@ python test.py --RGB_dir '../Dataset/Valid_RGB' --model_dir './model/trained.pth
 # The PSNR, SSIM, SAM, ERGAS, MRAE and RMSE indicators can be obtained by run:
 python compute_mrae.py --path_rec './test_results' --path_gt '../Dataset/Valid_spectral'
 ```
-- the pretrained model already exists in the model file
+- Download the model ([Google Drive](https://drive.google.com/drive/folders/1PK4d49qhbbrIWPsVefGg204aMVxDoJFZ?usp=drive_link), code: `drcr`))
 ## Citation
 
 If you find this code helpful, please kindly cite:
