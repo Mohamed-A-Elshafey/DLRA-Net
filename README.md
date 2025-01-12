@@ -108,7 +108,6 @@ python compute_mrae.py --path_rec './test_results' --path_gt '../Dataset/Valid_s
 If you find this code helpful, please kindly cite:
 ```shell
 # DLRA-Net
-```
 @article{el2024dlra,
   title={DLRA-Net: Deep Local Residual Attention Network with Contextual Refinement for Spectral Super-Resolution},
   author={El-gabri, Ahmed R and Aly, Hussein A and Ghoniemy, Tarek S and Elshafey, Mohamed A},
