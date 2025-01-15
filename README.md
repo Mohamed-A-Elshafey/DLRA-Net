@@ -59,26 +59,26 @@ Put all downloaded files to `/DLRA-Net-master/Dataset/`, and this repo is collec
 		|--test
 		|--train  
 		|--Dataset 
-            |--Train_spectral
-                    |--ARAD_1K_0001.mat
-	            |--ARAD_1K_0002.mat
-	                     ： 
-	            |--ARAD_1K_0900.mat
-	    |--Train_RGB
-	            |--ARAD_1K_0001.jpg
-	            |--ARAD_1K_0002.jpg
-	                     ： 
-	            |--ARAD_1K_0900.jpg
-	    |--Valid_soectral
-	            |--ARAD_1K_0901.mat
-	            |--ARAD_1K_0902.mat
-	                     ： 
-	            |--ARAD_1K_0950.mat
-	    |--Valid_RGB
-	            |--ARAD_1K_0901.jpg
-	            |--ARAD_1K_0902.jpg
-	                     ： 
-	            |--ARAD_1K_0950.jpg
+                        |--Train_spectral
+				|--ARAD_1K_0001.mat
+				|--ARAD_1K_0002.mat
+				： 
+				|--ARAD_1K_0900.mat
+			|--Train_RGB
+				|--ARAD_1K_0001.jpg
+				|--ARAD_1K_0002.jpg
+				： 
+				|--ARAD_1K_0900.jpg
+			|--Valid_soectral
+				|--ARAD_1K_0901.mat
+				|--ARAD_1K_0902.mat
+				： 
+				|--ARAD_1K_0950.mat
+			|--Valid_RGB
+				|--ARAD_1K_0901.jpg
+				|--ARAD_1K_0902.jpg
+				： 
+				|--ARAD_1K_0950.jpg
 ```
 1. #### Data Preprocess.
 ```shell
