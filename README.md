@@ -59,7 +59,7 @@ Put all downloaded files to `/DLRA-Net-master/Dataset/`, and this repo is collec
 		|--test
 		|--train  
 		|--Dataset 
-                        |--Train_spectral
+                  |--Train_spectral
 				|--ARAD_1K_0001.mat
 				|--ARAD_1K_0002.mat
 				： 
